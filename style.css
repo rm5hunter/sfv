@@ -1,0 +1,241 @@
+/*
+Theme Name: streetfighters
+Author: andres mauricio ramirez montoya
+Author URI: http://www.streetfightercolombia.com/
+Description: Plantilla desarrollada en Bootstrap paso a paso con amor
+Version: 1.0
+License: GNU General Public License v2 or later
+Text Domain: streetfighters
+*/
+
+/* General */
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #291701;
+	overflow-x: hidden;
+}
+
+a {
+	color: #291701;
+	font-weight: bold;
+}
+
+
+/* Header */
+header {
+	background-color: #2a1000;
+	padding-top: 25px;
+}
+
+.social-header {
+	margin-top: 12px;
+}
+
+	.social-header a {
+		color: #fff;
+	}
+
+		.social-header a .fa-inverse {
+			color: #2a1000;
+		}
+
+/* Menus */
+.menu-bar {
+	background-color: #ffbc01;
+	margin-top: 20px;
+}
+	.menu-bar a {
+		color: #2a1000;
+		font-size: 16px;
+		font-weight: 500;
+	}
+
+	.menu-bar a:hover {
+		text-decoration: none;
+		color: #fff;
+	}
+
+.menu-list {
+	padding: 12px 0;
+	margin-bottom: 0;
+}
+	.menu-list > li:not(:last-child) {
+		margin-right: 40px;
+	}
+
+/* Submenus */
+.menu-item-has-children {
+	position: relative;
+}
+	.menu-item-has-children .sub-menu {
+		display: none;
+		position: absolute;
+		z-index: 10;
+		padding: 0;
+		min-width: 120px;
+		text-align: left;
+		background-color: #ffbc01;
+		box-shadow: 0 3px 3px rgba(0,0,0,.5);
+	    left: -8px;
+	}
+
+		.menu-item-has-children .sub-menu li {
+			padding: 5px 10px;
+		}
+
+	.menu-item-has-children:hover .sub-menu {
+		display: block;
+	}
+
+	.menu-item-has-children > a::after {
+		    content: '';
+		    width: 0;
+		    height: 0;
+		    border-style: solid;
+		    border-width: 5px 5px 0 5px;
+		    border-color: #000000 transparent transparent transparent;
+		    position: relative;
+		    top: 13px;
+		    margin-left: 9px;
+	}
+
+		.menu-item-has-children > a:hover::after {
+			border-color: #fff transparent transparent transparent;
+		}
+
+/* Content */
+
+/* Main */
+#main > .container {
+	box-shadow: 0 7px 18px rgba(0, 0, 0, .5);
+}
+
+/* Carousel */
+#slider-home {
+	margin-bottom: 50px;
+}
+
+.carousel-caption {
+	background-color: rgba(41, 23, 1, 0.75);
+	height: 100%;
+	left: 0;
+	top: 0;
+	padding: 30px 45px;
+	text-align: left;
+	width: 340px;
+}
+
+	.carousel-caption p {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.carousel-caption h2 {
+		font-size: 26px;
+		line-height: 30px;
+	}
+
+	.carousel-caption .h4 {
+		font-size: 20px;
+		margin-bottom: 30px;
+		margin-top: 8px;
+	}
+
+	.carousel-caption img {
+		display: block;
+		max-width: 100%;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	.carousel-caption a {
+		border-radius: 0;
+		font-weight: bold;
+		color: #291701;
+		border: none;
+	}
+
+/* Info content */
+h3 {
+	font-size: 24px;
+	border-bottom: 1px solid #9e9e9e;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
+	h3 i {
+		color: #929292;
+	}
+
+p {
+	font-size: 16px;
+}
+
+/* Footer */
+footer {
+	background-color: #f6b92a;
+	font-size: 12px;
+	padding: 10px 0;
+}
+
+	footer ul {
+		margin-bottom: 0;
+	}
+
+	footer a:hover {
+		color: #fff;
+		text-decoration: none;
+	}
+
+
+/* Footer sidebars */
+.sidebars-zone {
+	background-color: #e0e0e0;
+	padding-top: 20px;
+}
+	.sidebars-zone h4 {
+		font-size: 20px;
+		border-bottom: 1px solid #9e9e9e;
+		padding-bottom: 10px;
+		margin-bottom: 15px;
+	}
+
+	.sidebars-zone a {
+		margin-bottom: 18px;
+		display: block;
+	}
+
+	.sidebars-zone a:hover {
+		color: #000;
+	}
+
+/* PAGES */
+h1.entry-title {
+    margin: 30px 0;
+}
+
+.entry-content {
+	margin-bottom: 80px;
+}
+
+.entry-content h2,
+.entry-content h3,
+.entry-content h4 {
+	margin: 40px 0 20px;
+}
+
+
+/* Helpers */
+.mar-top-80 {
+	margin-top: 80px;
+}
+
+/* WordPress classes */
+.alignright {
+	float: right;
+	margin: 20px 0 20px 20px;
+}
+
+.alignleft {
+	float: right;
+	margin: 20px 20px 20px 0;
+}

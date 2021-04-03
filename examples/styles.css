@@ -1,0 +1,15 @@
+.body{
+margin: auto;
+
+
+}
+
+.phpbasico{
+width: 200px;
+height: auto;
+border-style: solid;
+background-color: rgb(179, 159, 65);
+border-color: rgb(193, 54, 112);
+border-radius: 15px;
+
+}
